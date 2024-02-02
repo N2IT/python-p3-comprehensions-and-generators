@@ -5,4 +5,5 @@ def return_evens(num_list):
    return only_even
    
 def make_exclamation(sentence_list):
-    pass
+    screaming = [ (n + "!") for n in sentence_list if sentence_list != ""]
+    return screaming
